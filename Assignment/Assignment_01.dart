@@ -40,17 +40,14 @@ void main() {
   Book book1 = Book("Les Miserables", "Victor Hugo", 1862, 340);
   Book book2 = Book("War and Peace", "Tolstoy", 1869, 450);
   Book book3 = Book("Anna Karenina", "Leo Tolstoy", 1878, 800);
-  Book book4 = Book("The Secret", "Julie Garwood", 1992, 800);
 
   book1.read(59);
   book2.read(45);
   book3.read(82);
-  book4.read(37);
 
   print("Title:${book1.getTitle()}\n \t Author: ${book1.getAuthor()}\n \t Publication Year: ${book1.getPublicationYear()}\n \t Pages Read: ${book1.getPagesRead()}\n \t Book Age: ${book1.getBookAge()} years");
   print("Title:${book2.getTitle()}\n \t Author: ${book2.getAuthor()}\n \t Publication Year: ${book2.getPublicationYear()}\n \t Pages Read: ${book2.getPagesRead()}\n \t Book Age: ${book2.getBookAge()} years");
   print("Title:${book3.getTitle()}\n \t Author: ${book3.getAuthor()}\n \t Publication Year: ${book3.getPublicationYear()}\n \t Pages Read: ${book3.getPagesRead()}\n \t Book Age: ${book3.getBookAge()} years");
-  print("Title:${book4.getTitle()}\n \t Author: ${book4.getAuthor()}\n \t Publication Year: ${book4.getPublicationYear()}\n \t Pages Read: ${book4.getPagesRead()}\n \t Book Age: ${book4.getBookAge()} years");
-  print("\n\nTotal number of books created: ${Book.totalBooks}");
+ print("\n\nTotal number of books created: ${Book.totalBooks}");
 }
 
